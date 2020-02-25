@@ -1,0 +1,10 @@
+[package]
+name = "statusd"
+version = "0.1.0"
+authors = ["Erin Moon <erin@hecke.rs>"]
+edition = "2018"
+
+[dependencies]
+warp = "0.2.1"
+tracing = "0.1.12"
+tracing-subscriber = "0.2.1"
